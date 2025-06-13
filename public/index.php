@@ -2,11 +2,16 @@
 <html>
   <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Bem Vindo!</h1>
-    <?php echo "Este é meu primeiro Site em PHP. Ele foi feito apenas para estudar" ?>
+    <div class="div-main">
+        <h1>Bem Vindo!</h1>
+        <p>
+            <?php
+                echo "Este é meu primeiro Site em PHP.";
+            ?>
+        </p>
+    </div>
   </body>
 </html>
